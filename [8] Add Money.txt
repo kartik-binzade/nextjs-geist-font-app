@@ -1,0 +1,375 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#131416] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: Manrope, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#131416] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="X" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Link bank account</h2>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Chase</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Bank of America</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Wells Fargo</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Citibank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">US Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Capital One</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Discover</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">TD Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">PNC Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Ally Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Charles Schwab</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Fidelity</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Navy Federal Credit Union</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">State Street</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Goldman Sachs</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Morgan Stanley</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Bank of New York Mellon</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Northern Trust</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">M&amp;T Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Regions Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Fifth Third Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Huntington Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">KeyBank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Citizens Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Comerica Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Associated Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">BMO Harris Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">First Horizon Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Synovus Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Valley National Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Webster Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Zions Bank</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#131416] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#2d2f34] shrink-0 size-10" data-icon="Bank" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M24,104H48v64H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16H208V104h24a8,8,0,0,0,4.19-14.81l-104-64a8,8,0,0,0-8.38,0l-104,64A8,8,0,0,0,24,104Zm40,0H96v64H64Zm80,0v64H112V104Zm48,64H160V104h32ZM128,41.39,203.74,88H52.26ZM248,208a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H240A8,8,0,0,1,248,208Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Other</p>
+        </div>
+      </div>
+      <div>
+        <div class="flex px-4 py-3">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 flex-1 bg-[#c1cae0] text-[#131416] text-base font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Continue</span>
+          </button>
+        </div>
+        <div class="h-5 bg-[#131416]"></div>
+      </div>
+    </div>
+  </body>
+</html>
